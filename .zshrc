@@ -38,3 +38,9 @@ alias si='cd ~/Documents/si'
 function findstring() {
   grep --color --recursive -F $1 .
 }
+
+#TODO: Fix this function
+#function findandreplace() {
+#  find . -type f | xargs sed -i '' 's/$1/$2/g'
+#}
+
