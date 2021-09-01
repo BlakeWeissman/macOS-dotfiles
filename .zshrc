@@ -40,6 +40,11 @@ function findstring() {
 }
 
 #TODO: Fix this function
+#function gitcomparebranches () {
+#  git log --left-right --graph --cherry-pick --oneline $1...$2
+#}
+
+#TODO: Fix this function
 #function findandreplace() {
 #  find . -type f | xargs sed -i '' 's/$1/$2/g'
 #}
